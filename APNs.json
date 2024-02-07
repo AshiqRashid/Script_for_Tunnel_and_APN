@@ -16,7 +16,7 @@
     },
     {
         "addr": "10.48.0.1/24",
-        "dnn": "nybsys",
-        "dev": "nyb_tunnel"
+        "dnn": "ashiq",
+        "dev": "ashiq_tunnel"
     }
 ]
