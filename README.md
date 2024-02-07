@@ -3,8 +3,9 @@
 This script is able to create multiple tunnels and APNs.
 
 # INSTRUCTION    
-Follow the below steps to create multiple tunnels and APNs using the script 
-**1.** Copy Tunnel_Automation.py, tunBuilder.sh, copy.sh, restart.sh, and APNs.json files to /etc/open5gs/ location.
+Follow the below steps to create multiple tunnels and APNs using the script
+
+**1.** Locate Tunnel_Automation.py, tunBuilder.sh, copy.sh, restart.sh, and APNs.json files to the location where all the yaml files of the services of Open5gs (particularly, upf.yaml and smf.yaml) are located. In most cases, this location is  /etc/open5gs/
 
 **2.** Inside APNs.json, write the information of your APN and Tunnel which you want to create in json format. Add your tunnel’s information inside the curly bracket. Here, dnn is the APN name and dev is the Tunnel name.
 ***Caution:*** Remember during writing inside this APNs.json file, you should not edit the first APN’s information.
