@@ -2,6 +2,8 @@
 
 In LTE and 5G, we ofter need multiple APNs and tunnels for various reasons including service differentiation, security, roaming and network management. Here we have developed scripts which can automate tunnel and APN creation. We just need to specify all the required APNs and tunnels in a json file and this script is able to create all that tunnels and APNs.
 
+*Note:* This script can create APN and tunnel only for **Open5gs** which is a open source EPC and 5G core.
+
 # INSTRUCTION    
 Follow the below steps to create multiple tunnels and APNs using the script
 
